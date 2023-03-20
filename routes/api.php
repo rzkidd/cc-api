@@ -28,3 +28,4 @@ Route::post('/register', [AuthController::class, 'register']);
 Route::get('/mahasiswa', [MainController::class, 'getMahasiswa']);
 Route::get('/dosen', [MainController::class, 'getDosen']);
 Route::get('/mata-kuliah', [MainController::class, 'getMataKuliah']);
+Route::get('/perkuliahan', [MainController::class, 'getPerkuliahan']);
